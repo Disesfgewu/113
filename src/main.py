@@ -18,7 +18,8 @@ def main():
     X_train = reshape( x_train )
     
     NowDateTime = datetime.now().strftime("%Y-%m")
-    
+    print( X_train )
+    print( y_train )
     train( X_train , y_train , NowDateTime , batch_size = 128 , epochs = 100 )
     
     regression_modal( NowDateTime , AllOutPut , Regression_X_train , Regression_y_train )
