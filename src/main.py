@@ -4,7 +4,9 @@ import time
 from loading_data import *
 from normalize import *
 from LSTM_model import *
-from regression import *
+# from regression import *
+from VotingRegressor import *
+# from ExtraTreesRegressor import *
 from forcast import *
 
 def main():
