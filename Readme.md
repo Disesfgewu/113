@@ -22,6 +22,12 @@ Python 3.12
 ```python=
     train( X_train , y_train , NowDateTime , batch_size = 128 , epochs = 次數 )
 ```
+#### 更換模型
+可在 ./src/main.py 最上面 from xxxRegression import *
+中選擇回歸模型
+
+- 1. Regression : 線性回歸
+- 2. ExtraTreesRegressor : 極限隨機樹回歸
 
 Output.csv 會在同層
 丟給天氣小幫手前需要手動把 upload.csv 和 output.csv 的第一行（中文）刪除
